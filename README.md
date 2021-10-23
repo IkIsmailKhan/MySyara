@@ -5,5 +5,5 @@
 ### npm install
 ### npm start
 
-## Open browser and enter following url
+## Open Chrome browser and enter following url
 ### http://localhost:3000
