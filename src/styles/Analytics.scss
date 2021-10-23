@@ -1,0 +1,28 @@
+
+.analytics-container{
+    height: 20rem;
+    flex: 1;
+}
+
+.analytics-list-heading{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1rem 2rem 0.5rem 2rem;
+}
+
+.analytics-horizontal-line{
+    border-bottom: 1px solid lightgray;
+    margin: 0 2rem 0 2rem;
+}
+
+.analytics-graph{
+    margin: 1rem 2rem 0 2rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .analytics-container{
+        display: none;
+    }
+} 
+  

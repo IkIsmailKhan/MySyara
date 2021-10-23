@@ -1,0 +1,56 @@
+.total-amount-container{
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.total-amount{
+  margin: 0 2rem 0 2rem;
+  padding: 4rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: solid 1px rgb(223, 223, 223);
+  transition: transform .1s;
+  cursor: pointer;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 235, 235))
+}
+
+.total-amount:hover{
+  transform: scale(1.03);
+  border: solid 1px #407dbb9c
+}
+
+
+.amount{
+  font-size: 2.5rem;
+  font-weight: 700;
+  transition: transform .1s;
+  color: #407ebb;
+}
+
+.amount:hover{
+  transform: scale(1.1);
+}
+
+
+.date{
+  font-size: 0.75rem;
+  color: rgb(189, 188, 188);
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .amount{
+    font-size: 1rem;
+  }
+
+  .date{
+    font-size: 0.5rem;
+    white-space: nowrap;
+  }
+} 
+
+

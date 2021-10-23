@@ -1,0 +1,19 @@
+.dashboard{
+  flex: 3;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233));
+}
+
+.dashboard-section{
+  flex: 1;
+}
+
+.handle-transactions-analytics{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

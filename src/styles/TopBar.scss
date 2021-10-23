@@ -1,0 +1,48 @@
+.bar{
+    border-bottom: 1px solid lightgray;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233))
+}
+
+.bar-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-logo{
+    height: 1.3rem;
+    margin-right: 0.25rem;
+    cursor: pointer;
+}
+
+.bar-logo-title{
+    font-size: 1.5rem;
+    font-weight: 200;
+    transition: transform .1s;
+    cursor: pointer;
+    color: #407ebb;
+}
+
+.bar-logo-title:hover{
+    transform: scale(1.1);
+}
+
+.top-bar-dropdown{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    transition: transform .1s;
+    cursor: pointer;
+    color: #407ebb;
+}
+
+.top-bar-dropdown:hover{
+    transform: scale(1.2);
+}
+

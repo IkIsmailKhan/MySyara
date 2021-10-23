@@ -1,0 +1,88 @@
+.detail-wrapper{
+  flex: 1;
+  display: flex;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233))
+}
+
+.detail-container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.detail-search-bar{
+  font-size: 0.7rem;
+  border: none;
+}
+
+.detail-search-input{
+  padding:  0.25rem 0.35rem 0.25rem 0.35rem;
+  border: 1px solid lightgray;
+  border-radius: 0.25rem;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233));
+  width: 15rem;
+}
+
+
+.detail-chart{
+  width: 15rem;
+}
+
+.detail-title{
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.detail-line{
+  border-bottom: 1px solid lightgray;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.detail-transaction-log-list{
+  height: 12rem;
+  overflow-y: scroll;
+}
+
+.detail-transaction-log-list::-webkit-scrollbar {
+  display: none;
+}
+
+.detail-transaction-log{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  border: solid 1px rgb(226, 226, 226);
+  transition: transform .1s;
+  cursor: pointer;    
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233));
+  border: solid 1px rgb(221, 221, 221);
+}
+
+.detail-transaction-log:hover{
+  border: solid 1px #407dbb9c;
+  transform: scale(0.98);
+}
+
+.detail-transaction-log-title{
+  font-size: 0.9rem;
+  font-weight: 800;
+} 
+
+.detail-transaction-log-price{
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.detail-red{
+  color: red;
+}
+
+.detail-green{
+  color: green;
+}

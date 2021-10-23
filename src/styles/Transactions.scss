@@ -1,0 +1,64 @@
+.transactions-list{
+    height: 28rem;
+    overflow-y: scroll;
+}
+
+.transactions-list::-webkit-scrollbar {
+    display: none;
+}
+
+.transactions-list-heading{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1rem 2rem 0.5rem 2rem;
+}
+
+.horizontal-line{
+    border-bottom: 1px solid lightgray;
+    margin: 0 2rem 0 2rem;
+}
+
+.transactions-record{
+    margin:1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    padding:0.75rem 0.75rem 0.75rem 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: solid 1px rgb(221, 221, 221);
+    transition: transform .1s;
+    cursor: pointer;
+    height: 4.25rem;
+}
+
+.transactions-record:hover{
+    transform: scale(1.05);
+    border: solid 1px #407dbb9c
+}
+
+.log-icon{
+    display: flex;
+    padding-right: 1rem;
+}
+
+.flex-end{
+    align-self: flex-end;
+}
+
+.heading{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+}
+
+.sub-heading{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: rgb(189, 188, 188);
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
